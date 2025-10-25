@@ -15,17 +15,17 @@
   --shadow-card-dark: 0 4px 20px rgba(0, 0, 0, 0.4);
 
   /* === 🧞‍♂️ Animations === */
-  --animate-float: float 4s ease-in-out infinite;
+  --animate-float: float 6s ease-in-out infinite;
   --animate-ghost-float: ghostFloat 6s ease-in-out infinite;
   --animate-pulse-glow: pulseGlow 2s ease-in-out infinite;
 
   /* === 🎬 Keyframes === */
   @keyframes float {
     0%, 100% {
-      transform: translateY(0);
+      transform: translateY(0) rotate(0);
     }
     50% {
-      transform: translateY(-10px);
+      transform: translateY(-15px) rotate(8deg);
     }
   }
 
