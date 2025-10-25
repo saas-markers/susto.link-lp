@@ -58,6 +58,6 @@
 /* === 💅 Custom Utilities === */
 @layer utilities {
   .bg-gradient-hero {
-    background: radial-gradient(circle at 20% 30%, #1a1a1a 0%, #000 80%);
+    background: radial-gradient(circle at 20% 30%, #4a0080 0%, #000 80%);
   }
 }
