@@ -1,38 +1,15 @@
 <template>
-  <footer class="bg-black-deep border-t border-pumpkin/20 py-12 px-6 text-center">
-    <div class="max-w-6xl mx-auto flex flex-col items-center space-y-6">
-      <!-- <img src="/logo.svg" alt="Susto.Link" class="w-40 opacity-90 hover:opacity-100 transition" /> -->
-
-      <nav class="flex space-x-6 text-muted-foreground">
-        <a
-          v-for="link in links"
-          :key="link.name"
-          :href="link.href"
-          target="_blank"
-          class="hover:text-pumpkin transition-colors"
-        >
-          {{ link.name }}
-        </a>
-      </nav>
-
-      <div class="flex items-center justify-center space-x-5 text-2xl text-pumpkin">
-        <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="hover:text-lime-ghost transition">
-          🕸️
-        </a>
-        <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="hover:text-lime-ghost transition">
-          🦇
-        </a>
-        <a href="https://tiktok.com" target="_blank" aria-label="TikTok" class="hover:text-lime-ghost transition">
-          🎭
-        </a>
-      </div>
-
-      <p class="text-sm text-muted-foreground">
-        © {{ new Date().getFullYear() }} Susto.Link — Crafted with 💀 by
-        <a href="https://tmgrowth.com.br" target="_blank" class="text-pumpkin hover:text-lime-ghost transition">
-          Saas Makers
-        </a>
-      </p>
+  <footer class="bg-black-deep border-t border-pumpkin/30 py-8 px-4">
+    <div class="max-w-6xl mx-auto text-center space-y-4">
+      <div class="flex items-center justify-center gap-2 text-2xl font-display text-pumpkin">
+        <span>🎃</span><span>SUSTO.LINK</span></div>
+      <p class="text-muted-foreground text-sm">© 2025 Susto.Link. Todos os direitos reservados. Feliz Halloween! 🦇</p>
+      <div class="flex items-center justify-center gap-6 text-sm text-foreground"><a href="#privacy"
+          class="hover:text-pumpkin transition-colors">Política de Privacidade</a><span
+          class="text-muted-foreground">•</span><a href="#terms" class="hover:text-pumpkin transition-colors">Termos de
+          Uso</a><span class="text-muted-foreground">•</span><a href="#support"
+          class="hover:text-lime-ghost transition-colors">Contato para Suporte</a></div>
+      <div class="pt-4 text-xs text-muted-foreground">Feito com 💀 e 🎃 para as melhores pegadinhas de Halloween</div>
     </div>
   </footer>
 </template>

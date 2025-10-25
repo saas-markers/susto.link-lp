@@ -60,4 +60,8 @@
   .bg-gradient-hero {
     background: radial-gradient(circle at 20% 30%, #4a0080 0%, #000 80%);
   }
+
+  .font-display {
+    font-family: Creepster,cursive;
+  }
 }

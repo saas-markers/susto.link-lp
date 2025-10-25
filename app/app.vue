@@ -3,8 +3,8 @@
     <HalloweenCountdownBar />
     <HalloweenHeroSection />
     <LazyHalloweenFeaturesSection />
-    <LazyHalloweenStepsSection />
     <LazyHalloweenTestimonialsSection />
+    <LazyHalloweenCtaSection />
 		<LazyHalloweenFooterSection />
   </main>
 </template>

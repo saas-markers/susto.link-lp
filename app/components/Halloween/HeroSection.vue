@@ -9,31 +9,31 @@
 
     <div class="relative z-10 max-w-5xl mx-auto text-center space-y-8">
       <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-pumpkin leading-tight drop-shadow-[0_0_20px_rgba(255,117,24,0.5)]">
-        CREATE THE PERFECT HALLOWEEN PRANK THAT WILL GO VIRAL ON SOCIAL MEDIA.
+        CRIE O SUSTO PERFEITO DE HALLOWEEN QUE VAI VIRALIZAR NAS REDES SOCIAIS.
       </h1>
       <h2 class="text-xl md:text-2xl lg:text-3xl max-w-3xl mx-auto leading-relaxed text-foreground">
-        Susto.Link is your secret weapon for epic Halloween reactions. <br />
-        <span class="text-lime-ghost font-bold">It's your turn to surprise!</span>
+        Susto.Link é sua arma secreta para reações épicas de Halloween. A ferramenta mais rápida e fácil para gerar links de susto. <br />
+        <span class="text-lime-ghost font-bold">Chegou sua vez de surpreender!</span>
       </h2>
 
       <div class="max-w-2xl mx-auto my-8 rounded-2xl overflow-hidden border-4 border-pumpkin shadow-glow-pumpkin">
         <div class="aspect-video bg-gradient-hero flex items-center justify-center">
           <div class="text-center space-y-4 p-8">
             <p class="text-8xl animate-float">😱</p>
-            <p class="text-2xl text-lime-ghost">EPIC SCARE REACTIONS HERE</p>
-            <p class="text-sm text-muted-foreground">(Video: Hilarious prank reactions)</p>
+            <p class="text-2xl text-lime-ghost">REAÇÕES ÉPICAS DE SUSTO AQUI</p>
+            <p class="text-sm text-muted-foreground">(Vídeo: Reações hilárias de susto)</p>
           </div>
         </div>
       </div>
 
       <button
-        class="inline-flex items-center justify-center gap-2 h-11 bg-pumpkin hover:bg-pumpkin/90 text-black-deep font-bold text-lg md:text-xl px-8 py-7 rounded-xl shadow-glow-pumpkin animate-pulse-glow transition-all hover:scale-105"
+        class="inline-flex items-center justify-center gap-2 h-11 bg-pumpkin hover:bg-pumpkin/90 text-black-deep font-bold text-lg md:text-xl px-8 py-7 rounded-xl shadow-glow-pumpkin animate-pulse-glow transition-all hover:scale-105 cursor-pointer"
       >
-        🎃 CREATE MY VIRAL LINK NOW (Only R$ 5)
+        🎃 CRIAR MEU LINK VIRAL AGORA (Apenas R$ 5)
       </button>
 
       <p class="text-sm text-muted-foreground">
-        ⚡ Instant delivery • 💯 Guaranteed reactions • 🎭 Easy to use
+        ⚡ Entrega instantânea • 💯 Reações garantidas • 🎭 Fácil de usar
       </p>
     </div>
   </section>
