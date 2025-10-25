@@ -37,21 +37,21 @@ export default defineNuxtConfig({
       tailwindcss()
     ]
   },
-  image: {
-    provider: 'cloudinary',
-    cloudinary: {
-      baseURL: 'https://res.cloudinary.com/dhysfkiem/image/upload',
-      modifiers: {
-        quality: 'auto:best'
-      }
-    },
-    quality: 80,
-    format: ['webp', 'avif'],
-    screens: {
-      xs: 480,
-      sm: 640,
-      md: 768,
-      lg: 1280
-    }
-  }
+  // image: {
+  //   provider: 'cloudinary',
+  //   cloudinary: {
+  //     baseURL: 'https://res.cloudinary.com/dhysfkiem/image/upload',
+  //     modifiers: {
+  //       quality: 'auto:best'
+  //     }
+  //   },
+  //   quality: 80,
+  //   format: ['webp', 'avif'],
+  //   screens: {
+  //     xs: 480,
+  //     sm: 640,
+  //     md: 768,
+  //     lg: 1280
+  //   }
+  // }
 })
